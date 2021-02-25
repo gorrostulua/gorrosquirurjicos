@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+
+    <title>Document</title>
+     <!-- estilos de boostrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- estilo de nosotros -->
+     <link rel="stylesheet" href="css/style..css">
+    <!-- font awesome se pego una carpeta y se llama  -->
+    <link rel="stylesheet" href="css awesome/all.min.css">
+    <link rel="stylesheet" href="css/slippry.css">
+    <!-- material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+<body>
+    <header>
+        <!-- nuestro menu de navegacion -->
+        <nav id="navigation" class=" navbar  navbar-expand-lg navbar-light bg-light navbar-top  navbar-dark bg-dark fixed-top default  " role="navigation" >
+            <div class="container">
+                <!-- logo y el boton -->
+                <div class="navbar navbar-header">
+                    <!-- nombre del logo -->
+                    <a href="#" class="navbar-brand">GGM</a>
+                    <button class="navbar-toggler navbar-left" type="button" data-bs-toggle="collapse" data-bs-target="#menu1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button> 
+
+                </div>
+                <div class="navigation">
+                    <!-- menu de navegacion -->
+                    <div class="collapse navbar-collapse navbar-left" id="menu1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item"><a class="nav-link active" href="#intro">INICIO</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#nosotros">NOSOTROS</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#trabajo">CATALOGO</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#precio">PRECIO</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link " href="#intro">PRODUCTOS</a></li> -->
+                            <li class="nav-item"><a class="nav-link " href="#contacto">
+                                <i class="fas fa-address-book"></i>
+
+                            CONTACTO</a></li> 
+                            <li class="nav-item"><a  class="nav-link " href="https://www.facebook.com/Gorros-Quirurgicos-Tulua-2102602273194191">
+                                <i  class="fab fa-facebook-f"></i>
+                                FACEBOOK</a></li>
+                            <li class="nav-item"><a class="nav-link " href="https://www.instagram.com/gorrosquirurgicostulua/">
+                                <i class="fab fa-instagram"></i>
+                                INSTAGRAM</a>
+                            </li>
+                            
+                            
+                               <!--  -->
+                            <!-- <li class="dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"  href="#">
+                                    CATALOGO GORROS
+                                   </a>
+                                 <ul class="dropdown-menu" >
+                                     <li><a style="text-decoration: none;color: black;" href="#">DISEÑOS PERSONALIZADOS</a></li>
+                                     <li><a href="#trabajo">ANIMES</a></li>
+                                     <li><a href="#">COCINA</a></li>
+                                     <li><a href="#">OTROS</a></li> 
+                                 </ul>   
+                            </li>     -->
+
+                            
+
+                        </ul>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- seccion de inicio carrusel -->
+    <section id="intro" >
+        <div id="carousel" class="carousel slider" data-bs-ride="carousel">
+            <!-- indicador -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner" >
+                
+                <div class="carousel-item active" data-bs-interval="400" style="background-image: url('img/slide/work1.jpg');" >
+                    <div class="container">
+                        <h2>INNOVACION</h2>
+                        <p>ESTILOS PROPIOS</p>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item " data-bs-interval="2000"  style="background-image: url('img/slide/maquina.jpg');" >
+                    <div class="container">
+                        <h2> DISEÑOS</h2>
+                        <p>A TU MEDIDA</p>
+                    </div>
+                </div>
+                <div class="carousel-item "   style="background-image: url('img/slide/trabajo3.jpg');" >
+                    <div class="container">
+                        <h2> PERSONALIZADOS</h2>
+                        <p>A TU GUSTO</p>
+                    </div>
+                </div>
+
+            
+            </div>
+            <!-- otros botones -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            
+        </div>
+
+        
+    </section>
+
+    <!-- seccion de nosotros -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-ms-offset-2" >
+                    <div class="heading">
+                        <h2><span> NOSOTROS</span></h2>
+                    </div>
+                    <div class="sub-heading">
+                        <p>
+                            GGM,Te presta el servicio de obtener tus gorros quirirjucos con 
+                            los diseños que desees,tenemos una variedad de catalogos 
+                            donde puedes personalizar el tuyo a tu manera
+                        </p>    
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="diseño">
+                        <img src="imagenes/chicas poderosas y otros/poderosa 1.PNG" alt="" class="img-fluid" />
+                        <div class="heading">
+                            <h5><strong>DISEÑOS</strong></h5>
+                            
+                            
+                        </div>
+                        <div class="sub-heading">
+                            <p>
+                                diseñamos tu gorro a la medida y a tu gusto
+                              </p>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="diseño">
+                        <img src="imagenes/chicas poderosas y otros/poderosa 1.PNG" alt="" class="img-fluid" />
+                        <div class="heading">
+                            <h5><strong>DISEÑOS</strong></h5>
+                            
+                            
+                        </div>
+                        <div class="sub-heading">
+                            <p>
+                                diseñamos tu gorro a la medida y a tu gusto
+                              </p>
+
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="diseño">
+                        <img src="imagenes/chicas poderosas y otros/poderosa 1.PNG" alt="" class="img-fluid" />
+                        <div class="heading">
+                            <h5><strong>DISEÑOS</strong></h5>
+                            
+                            
+                        </div>
+                        <div class="sub-heading">
+                            <p>
+                                diseñamos tu gorro a la medida y a tu gusto
+                              </p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- catalogo -->
+    <section id="trabajo" class="gallery min-vh-100">
+        <!-- nombre personalizados -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-2">
+                    <div class="heading">
+                        <h1><span style=" color: #9fb8ad ; font-weight: 700;">CATALOGO</span></h1>
+                    </div>
+
+                    <div class="heading">
+                        <h3><span>NOMBRES PERSONALIZADOS</span></h3>
+                    </div>
+                    <div class="sub-heading">
+                        <p>
+                            personalizamos con tu nombre
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+         <!-- imagenes de personalizados -->
+        <div class="container-lg">
+           <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+              <div class="col">
+                 <img src="imagenes/nombres personalizados/1..jpg" class="gallery-item  " alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="imagenes/nombres personalizados/1.PNG" class="gallery-item " alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="imagenes/nombres personalizados/1.PNG" class="gallery-item" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="imagenes/nombres personalizados/2.PNG" class="gallery-item" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="imagenes/nombres personalizados/2.PNG" class="gallery-item" alt="gallery">
+              </div>
+              <div class="col">
+                 <img src="imagenes/nombres personalizados/2.PNG" class="gallery-item" alt="gallery">
+              </div>
+           </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-2">
+                   
+
+                    <div class="heading">
+                        <h3><span>ANIMES</span></h3>
+                    </div>
+                    <div class="sub-heading">
+                        <p>
+                            pidelo a tu gusto
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+               <div class="col">
+                  <img src="imagenes/animes/1.PNG" class="gallery-item  " alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="imagenes/animes/1.PNG" class="gallery-item " alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="imagenes/animes/1.PNG" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="imagenes/animes/2.PNG" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="imagenes/animes/2.PNG" class="gallery-item" alt="gallery">
+               </div>
+               <div class="col">
+                  <img src="imagenes/animes/2.PNG" class="gallery-item" alt="gallery">
+               </div>
+            </div>
+         </div>
+
+
+    </section>
+   
+   <!-- Modal -->
+   <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-lg">
+       <div class="modal-content">
+         <div class="modal-header">
+           <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+            <img src="img/1.jpg" class="modal-img" alt="modal img">
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- precio -->
+   <section id="precio">
+        <div class="container">
+            <div class="content-center">
+                <h1>PRECIOS</h1>
+                <p>
+                    realizamos envios nacionales e internaciones,a un precio justo
+                    y con una gran variedad de diseños
+                </p>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pricing-container"> 
+                        <div class="plans plan-light">
+                            <h4>SOLO GORRO</h4>
+                            <h2>$23.000 <span>/ Uni</span></h2>
+                            <h4>Menos de diez gorros (uni) </h4>
+                            <ul class="mt-3">
+                                <li>No aplica envio</li>
+                                <li>Diseños personalizados</li>
+                                <li>Tamaño a tu gusto</li>
+                                <li>Estilo a tu gusto</li>
+                            </ul>
+                            <a href="#" class="btn btn-dark full-width topmargin-sm">Start now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="pricing-container">
+                        <div class="plans plan-dark">
+                            <h4>GORRO Y TAPABOCAS</h4>
+                            <h2>$30.000 <span>/ Par</span></h2>
+                            <h4>Menos de 10 unidades (par)</h4>
+                            <ul class="mt-3">
+                                <li>No aplica envio</li>
+                                <li>Diseños personalizados</li>
+                                <li>Estilos a tu gusto</li>
+                                <li>A tu medida</li>
+                            </ul>
+                            <a href="#" class="btn btn-transparent full-width ">Start now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+
+    </section>
+    <!-- contacto -->
+    <div id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 topmargin-sm">
+                    <h3></h3>
+
+                </div>
+                <div class="col-md-6 topmargin-sm">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="footer" class="bg-dark">
+        <div class="container">
+            <!-- logo -->
+            
+                <!-- nombre del logo -->
+                <a href="#" class="footer-center">GGM</a>
+                
+
+            
+            <ul class="list-inline">
+                <li class="list-inline-item footer-menu"><a href="#intro">HOME</a></li>
+                <li class="list-inline-item footer-menu"><a href="#nosotros">NOSOTROS</a></li>
+                <li class="list-inline-item footer-menu"><a href="#trabajo">CATALOGO</a></li>
+                <li class="list-inline-item footer-menu"><a href="#precio">PRECIOS</a></li>
+                <li class="list-inline-item footer-menu"><a href="#contacto">CONTACTO</a></li>
+
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a  class="" href="https://www.facebook.com/Gorros-Quirurgicos-Tulua-2102602273194191">
+                    <i  class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class=" " href="https://www.instagram.com/gorrosquirurgicostulua/">
+                        <i class="fab fa-instagram"></i>
+                        </a>
+
+                </li>
+
+            </ul>
+
+            
+            
+
+
+        </div>
+
+    </section>
+
+   
+
+
+
+   
+    <!-- jquery descargado y copiado a la carpeta js y llamado  -->
+    <script src="js/jquery.js" ></script>
+    <!-- js de boostrap -->
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/main.js"> </script>
+</body>
+</html>
